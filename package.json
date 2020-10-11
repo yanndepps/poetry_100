@@ -1,0 +1,33 @@
+{
+  "name": "poetry_100",
+  "version": "1.0.0",
+  "description": "shaders + scrollTrigger + css grid",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "format": "prettier --ignore-path ./.gitignore --write \"./**/*.{html,json,js,ts,css}\"",
+    "format:check": "prettier --ignore-path ./.gitignore --check \"./**/*.{html,json,js,ts,css}\"",
+    "lint": "eslint --ignore-path ./.gitignore --fix \"./**/*.{js,ts}\"",
+    "lint:check": "eslint --ignore-path ./.gitignore --quiet \"./**/*.{js,ts}\"",
+    "test": "jest"
+  },
+  "browserslist": [
+    "last 2 Firefox versions"
+  ],
+  "keywords": [],
+  "author": "depps",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.10.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-import": "^2.22.1",
+    "jest": "^26.5.2",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.1.2"
+  },
+  "dependencies": {
+    "dat.gui": "^0.7.7",
+    "gsap": "^3.5.1",
+    "three": "^0.121.1"
+  }
+}
